@@ -11,6 +11,7 @@
     <modules>
         <module>osipalli-template-gateway</module>
         <module>osipalli-template-services</module>
+        <module>osipalli-template-common</module>
     </modules>
 
 

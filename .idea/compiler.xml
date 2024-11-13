@@ -9,6 +9,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="osipalli-template-common" />
         <module name="osipalli-template-gateway" />
         <module name="osipalli-template-services-identity" />
         <module name="osipalli-template-services-system" />
@@ -20,8 +21,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="osipalli-template-common" options="-parameters" />
       <module name="osipalli-template-gateway" options="-parameters" />
-      <module name="osipalli-template-services" options="-parameters" />
+      <module name="osipalli-template-services" options="" />
       <module name="osipalli-template-services-identity" options="-parameters" />
       <module name="osipalli-template-services-system" options="-parameters" />
     </option>

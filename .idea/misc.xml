@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/osipalli-template-services/pom.xml" />
         <option value="$PROJECT_DIR$/osipalli-template-services/osipalli-template-services-identity/pom.xml" />
         <option value="$PROJECT_DIR$/osipalli-template-services/osipalli-template-services-system/pom.xml" />
+        <option value="$PROJECT_DIR$/osipalli-template-common/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
