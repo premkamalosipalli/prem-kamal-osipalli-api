@@ -8,17 +8,11 @@
         <version>3.3.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.osipalli.template.services.system</groupId>
-    <artifactId>osipalli-template-services-system</artifactId>
+    <groupId>com.osipalli.template.common</groupId>
+    <artifactId>osipalli-template-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>template Cloud :: Service :: system</name>
-    <description>osipalli-template-services-system</description>
-
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <name>Osipalli templagte Project :: Common</name>
+    <description>${project.name}</description>
 
     <dependencyManagement>
         <dependencies>
@@ -47,29 +41,17 @@
         </dependencies>
     </dependencyManagement>
 
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <dependencies>
-
-        <!-- Spring Boot Starter Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Nacos dependencies -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
-
-        <!-- Spring Cloud dependencies -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-bootstrap</artifactId>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

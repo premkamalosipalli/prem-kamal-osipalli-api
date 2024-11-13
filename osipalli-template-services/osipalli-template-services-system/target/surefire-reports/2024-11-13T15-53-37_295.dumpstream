@@ -1,0 +1,5 @@
+# Created at 2024-11-13T15:53:48.183
+Boot Manifest-JAR contains absolute paths in classpath 'D:\PremkamalOsipalli\prem-kamal-osipalli\prem-kamal-osipalli-api\osipalli-template-services\osipalli-template-services-system\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
