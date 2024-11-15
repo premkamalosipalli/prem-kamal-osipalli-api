@@ -2,12 +2,14 @@ package com.osipalli.template.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-public class OsipalliTemplateGatewayApplication {
+@EnableDiscoveryClient
+public class GatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OsipalliTemplateGatewayApplication.class, args);
+        SpringApplication.run(GatewayApplication.class, args);
     }
 
 }

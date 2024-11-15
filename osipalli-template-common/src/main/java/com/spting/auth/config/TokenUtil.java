@@ -25,6 +25,7 @@ public class TokenUtil {
 
     public String getToken(){
         try{
+            System.out.println("Token Class");
             URI uri = new URI(jwtConfig.getIssuerUri()+"/oauth/token");
             String clientId = "client-credentials";
             String clientSecret = "Black123";
