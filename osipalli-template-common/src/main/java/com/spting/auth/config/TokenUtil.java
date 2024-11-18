@@ -1,7 +1,7 @@
 package com.spting.auth.config;
 
 import com.alibaba.fastjson.JSONObject;
-//import com.osipalli.template.common.utils.RedisUtils;
+import com.osipalli.template.common.utils.RedisUtils;
 import jakarta.annotation.Resource;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -24,17 +24,17 @@ public class TokenUtil {
 
   @Autowired
   private JwtConfig jwtConfig;
-//  @Resource
-//  private RedisUtils redisUtils;
+  @Resource
+  private RedisUtils redisUtils;
 
 
   public String getToken() {
     try {
-//      String key = "temporary_token";
-////      Object o = redisUtils.get(key);
-//      if (o != null) {
-//        return String.valueOf(o);
-//      }
+      String key = "temporary_token";
+      Object o = redisUtils.get(key);
+      if (o != null) {
+        return String.valueOf(o);
+      }
       // 设置请求的 URL 和凭据信息
       URI uri = new URI(jwtConfig.getIssuerUri() + "/oauth2/token");
       String clientId = "credentials-client";
@@ -55,7 +55,7 @@ public class TokenUtil {
         String responseString = EntityUtils.toString(entity);
         JSONObject jsonObject = JSONObject.parseObject(responseString);
         String token = jsonObject.getString("access_token");
-//        redisUtils.set(key, token, 2500000);
+        redisUtils.set(key, token, 2500000);
         return token;
       }
     } catch (Exception e) {
