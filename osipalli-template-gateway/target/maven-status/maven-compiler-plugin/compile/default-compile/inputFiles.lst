@@ -1,0 +1,8 @@
+/Users/premkamalosipalli/IdeaProjects/prem-kamal-osipalli-api/osipalli-template-gateway/src/main/java/com/osipalli/template/gateway/service/WebClientAuthenticateService.java
+/Users/premkamalosipalli/IdeaProjects/prem-kamal-osipalli-api/osipalli-template-gateway/src/main/java/com/osipalli/template/gateway/GatewayApplication.java
+/Users/premkamalosipalli/IdeaProjects/prem-kamal-osipalli-api/osipalli-template-gateway/src/main/java/com/osipalli/template/gateway/utils/PathMatchUtils.java
+/Users/premkamalosipalli/IdeaProjects/prem-kamal-osipalli-api/osipalli-template-gateway/src/main/java/com/osipalli/template/gateway/dto/TokenDTO.java
+/Users/premkamalosipalli/IdeaProjects/prem-kamal-osipalli-api/osipalli-template-gateway/src/main/java/com/osipalli/template/gateway/utils/SignUtil.java
+/Users/premkamalosipalli/IdeaProjects/prem-kamal-osipalli-api/osipalli-template-gateway/src/main/java/com/osipalli/template/gateway/filter/AuthenticateFilter.java
+/Users/premkamalosipalli/IdeaProjects/prem-kamal-osipalli-api/osipalli-template-gateway/src/main/java/com/osipalli/template/gateway/config/RedisUtils.java
+/Users/premkamalosipalli/IdeaProjects/prem-kamal-osipalli-api/osipalli-template-gateway/src/main/java/com/osipalli/template/gateway/filter/JwtConfig.java

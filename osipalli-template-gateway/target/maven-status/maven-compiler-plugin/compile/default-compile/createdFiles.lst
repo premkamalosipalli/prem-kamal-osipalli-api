@@ -1,0 +1,8 @@
+com/osipalli/template/gateway/filter/JwtConfig.class
+com/osipalli/template/gateway/dto/TokenDTO.class
+com/osipalli/template/gateway/filter/AuthenticateFilter.class
+com/osipalli/template/gateway/service/WebClientAuthenticateService.class
+com/osipalli/template/gateway/GatewayApplication.class
+com/osipalli/template/gateway/config/RedisUtils.class
+com/osipalli/template/gateway/utils/SignUtil.class
+com/osipalli/template/gateway/utils/PathMatchUtils.class
